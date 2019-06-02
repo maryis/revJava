@@ -10,7 +10,7 @@ public interface  Inter1 {//no implemented normal method( from j8  we can have i
 
     default int defaultMethod1(int i, int b){//it can have default method. subclass can override it
         return i+b;
-    }
+    } //it can be override in subclass
 
     static int staticMethod1(int i,int j)//it can have static method. subclass cannot override it
     {

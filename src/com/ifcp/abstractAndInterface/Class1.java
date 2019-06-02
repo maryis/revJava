@@ -34,7 +34,7 @@ public class Class1 extends Abs1 implements Inter1 ,Inter2 {//extend just one ab
         return 0;
     }
 
-      ///////////////////////////////
+    /////////////////////////////////////
     //Interface 2
 
     @Override
