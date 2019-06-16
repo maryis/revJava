@@ -1,12 +1,8 @@
 package com.ifcp.controller;
 
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-import java.util.stream.Collectors;
-
-import com.ifcp.MyCollection;
 import com.ifcp.functionalInterface.FunIntr;
+
+import java.awt.*;
 
 public class FuncIntr {
 
@@ -33,10 +29,12 @@ public class FuncIntr {
         FunIntr sum=((x,y) -> x+y);
         //FunIntr funIntr=((int x,int y) -> x+y);
         System.out.println("sum:"+sum.calculate(2,3));
+   }
 
-
-
-    }
+   public int add(int a,int b){
+        FunIntr sum=((x,y)->x+y);
+        return sum.calculate(a,b);
+   }
 }
 
 
