@@ -9,3 +9,7 @@ and
 - interface,abstract concept
 - junit
 - mockito
+
+note about internal sortl algorithm in collection.sort or array.sort :
+According to the Javadoc, only primitive arrays are sorted using Quicksort. Object arrays are sorted with a Mergesort as well.
+So Collections.sort seems to use the same sorting algorithm as Arrays.sort for Objects.
